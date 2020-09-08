@@ -17,7 +17,7 @@ def in_range(nums, lowest, highest):
 
     # YOUR CODE HERE
     for num in nums:
-        if num >= 15 and num <= 30:
+        if num >= lowest and num <= highest:
             print(num)
 
 
